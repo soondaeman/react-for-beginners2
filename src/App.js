@@ -4,12 +4,12 @@ import Home from './routes/Home';
 
 const router = createBrowserRouter([
   {
-    path: `${process.env.PUBLIC_URL}/`,
-    element: <Home />,
-  },
-  {
     path: '/movie/:id',
     element: <Detail />,
+  },
+  {
+    path: `${process.env.PUBLIC_URL}/`,
+    element: <Home />,
   },
 ]);
 

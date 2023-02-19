@@ -39,5 +39,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://soondaeman.github.io/react-for-beginners2"
+  "homepage": "https://soondaeman.github.io/react-for-beginners2",
+  "http.proxySupport": "off"
 }
